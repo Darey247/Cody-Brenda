@@ -47,7 +47,6 @@ a {
   padding: 100px 0;
 }
 
-/* Typography */
 h1, h2, h3, h4 {
   font-family: 'Playfair Display', Georgia, serif;
   line-height: 1.2;
@@ -86,7 +85,6 @@ p {
   line-height: 1.7;
 }
 
-/* Header / Navigation */
 .header {
   position: sticky;
   top: 0;
@@ -142,7 +140,6 @@ p {
   width: 100%;
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -152,11 +149,10 @@ p {
   border: none;
   font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   cursor: pointer;
   transition: var(--transition);
   text-transform: uppercase;
-  letter-spacing: 0.8px;
 }
 
 .btn-primary {
@@ -185,7 +181,6 @@ p {
   font-size: 1rem;
 }
 
-/* Hero Section */
 .hero {
   padding: 100px 0 80px;
   min-height: 100vh;
@@ -252,7 +247,6 @@ p {
   filter: brightness(1.02) contrast(1.05);
 }
 
-/* Section Headers */
 .section-header {
   margin-bottom: 60px;
   max-width: 600px;
@@ -267,7 +261,6 @@ p {
   color: var(--text-light);
 }
 
-/* About Section */
 .about {
   background: var(--bg-light);
 }
@@ -325,7 +318,6 @@ p {
   margin-bottom: 0;
 }
 
-/* Services Section */
 .services {
   background: white;
 }
@@ -342,7 +334,6 @@ p {
   border-radius: 8px;
   background: white;
   transition: var(--transition);
-  cursor: pointer;
 }
 
 .service-card:hover {
@@ -369,7 +360,6 @@ p {
   margin-bottom: 0;
 }
 
-/* Work / Portfolio Section */
 .work {
   background: var(--bg-light);
 }
@@ -448,7 +438,6 @@ p {
   font-size: 0.95rem;
 }
 
-/* Process Section */
 .process {
   background: white;
 }
@@ -498,7 +487,6 @@ p {
   align-self: center;
 }
 
-/* Testimonials Section */
 .testimonials {
   background: var(--bg-light);
 }
@@ -545,7 +533,6 @@ p {
   color: var(--text-light);
 }
 
-/* Insights Section */
 .insights {
   background: white;
 }
@@ -598,8 +585,6 @@ p {
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  position: relative;
-  transition: var(--transition);
 }
 
 .insight-link::after {
@@ -613,7 +598,6 @@ p {
   transform: translateX(4px);
 }
 
-/* Final CTA Section */
 .final-cta {
   padding: 100px 0;
   background: var(--primary);
@@ -634,7 +618,6 @@ p {
   margin: 0 auto 32px;
 }
 
-/* Contact Section */
 .contact {
   background: white;
 }
@@ -718,7 +701,6 @@ p {
   margin-top: 8px;
 }
 
-/* Footer */
 .footer {
   background: var(--primary);
   color: white;
@@ -768,7 +750,6 @@ p {
   font-size: 0.85rem;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -811,7 +792,6 @@ p {
   transform: translateY(0);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .container {
     padding: 0 32px;
@@ -941,10 +921,6 @@ p {
   .btn {
     padding: 12px 24px;
     font-size: 0.85rem;
-  }
-
-  .hero-ctas {
-    flex-direction: column;
   }
 
   .nav-menu {
